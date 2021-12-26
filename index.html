@@ -60,7 +60,7 @@
                         <button class="btn btn-primary my-5">Mon expertise Web</button>
                     </div>
                     <div class="col-12 col-md-6">
-                        <img src="img\portrait.jpg" alt="Photo de Brice" width="100%">
+                        <img class="rounded-3 shadow" src="img\portrait.jpg" alt="Photo de Brice" width="100%">
                     </div>
                 </div>    
             </div>
@@ -166,14 +166,14 @@
                     </div>
                     <!-- img de code -->
                     <div class="col-12 col-md-4 offset-md-1 align-self-center">
-                        <img src="img\code.jpg" alt="" width="100%">
+                        <img class="rounded-3 shadow" src="img\code.jpg" alt="" width="100%">
                     </div>
                 </div>
 
 
                 <div class="row gy-5 mt-5">
                     <div class="col-12 col-md-4 align-self-center">
-                        <img src="img\design.jpg" alt="" width="100%">
+                        <img class="rounded-3 shadow" src="img\design.jpg" alt="" width="100%">
                     </div>
 
                     <div class="col-12 col-md-7 offset-md-1 gy-5">
@@ -510,10 +510,32 @@
                 <h3 class="fw-lighter fs-4">Allons en discuter autour d'un café</h3>
                 <div class="row gy-4 mt-5">
                     <div class="col-12 col-md-5">
-                        <img src="img\grab-a-coffee.jpg" alt="" width="100%">
+                        <img class="rounded-3 shadow" src="img\grab-a-coffee.jpg" alt="" width="100%">
                     </div>
                     <div class="col-12 col-md-6 offset-md-1 gy-5">
-                        <div class="bg-secondary h-100 w-100 py-5"></div>
+                        <form action="">
+                            <div class="mb-3 col-5 d-inline-block">
+                                <label for="prenom" class="form-label">Prénom</label>
+                                <input class="form-control" name="prenom" type="text" id="prenom">
+                            </div>
+                            <div class="mb-3 col-6 ms-5 d-inline-block">
+                                <label for="nom" class="form-label">Nom</label>
+                                <input class="form-control" name="nom" type="text" id="nom">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mail" class="form-label">Email address</label>
+                                <input class="form-control" name="mail" type="text" id="mail">
+                            </div>
+                            <div class="mb-3">
+                                <label for="msg" class="form-label">Message</label>
+                                <textarea class="form-control" id="msg" cols="84" rows="2"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary w-100 mb-5">Envoyer</button>
+                            </div>
+                        </form>
+
+
                     </div>
                 </div>
             </div>
